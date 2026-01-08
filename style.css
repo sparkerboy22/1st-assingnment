@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    padding: 16px 120px;
+}
+nav{  width: 90%;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+nav ul a{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+}
+.btn-button1{
+    background-color: green;
+    padding: 12px 16px;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
