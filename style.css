@@ -9,7 +9,9 @@
   font-optical-sizing: auto;
 }
 header{
-    padding: 16px 120px;
+    
+    /* border: 3px solid green;
+     */
 }
 nav{  width: 90%;
     
@@ -37,4 +39,50 @@ nav ul a{
     border: none;
     border-radius: 5px;
     color: white;
+}
+#banner{
+  padding: 200px 0;
+    background: url(assets/hero-bg.png);
+   color: white;
+   
+}
+#banner .banner-contant{
+    max-width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+}
+.colour-green{
+    color: greenyellow;
+}
+.bagde{
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background: seashell;
+    color: #469165;
+}
+#banner .banner-contant h1{
+    /* font-size: xx-large; */
+}
+#banner .banner-contant p{
+    line-height: 28px;
+    
+}
+.btn-button2{
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background: #30B868;
+    font-weight: bold;
+}
+.btn-button3{
+    background: transparent;
+    color: white;
+    padding: 12px 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
 }
