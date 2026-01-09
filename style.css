@@ -62,8 +62,9 @@ nav ul a{
     color: #469165;
 }
 #banner .banner-contant h1{
-    /* font-size: xx-large; */
-}
+    font-size: 85px;
+} 
+
 #banner .banner-contant p{
     line-height: 28px;
     
@@ -85,4 +86,42 @@ nav ul a{
     border: 1px solid #ccc;
     border-radius: 5px;
    
+}
+#notes{
+    padding: 80px 0;
+}
+#notes .notes-contant{
+     max-width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+}
+.notes-contant h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.notes-contant p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 20px;
+}
+ .notes-info{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+.notes-info .info-card{
+    box-shadow: 0 6px 50px 0 #00000027;
+    padding: 30px;
+    border-radius: 10px;
+}
+.info-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.info-card p{
+    font-size: 16px;
+    
 }
