@@ -61,7 +61,7 @@ nav ul a{
     background: seashell;
     color: #469165;
 }
-#banner .banner-contant h1{
+#banner .banner-constant h1{
     font-size: 85px;
 } 
 
@@ -100,7 +100,7 @@ nav ul a{
     font-weight: bold;
     margin-bottom: 20px;
 }
-.notes-contant p{
+.notes-constant p{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
@@ -143,7 +143,7 @@ nav ul a{
     height: auto;
     
  }
- .solution-content .colour-olive{
+ .solution-content .cloud-olive{
     color: #469165;
  }
  .solution-content h2{
@@ -156,4 +156,23 @@ nav ul a{
     margin-top: 25px;
     font-weight: 600;
  }
- 
+ #section{
+   
+    padding: 120px;
+    background-color: #F7F6F2;
+    text-align: center;
+    
+ }
+ .section-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+ }
+ .section-container p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #627382;
+ }
+ .section-container .tiny-text{
+    margin-top: 20px;
+ }
