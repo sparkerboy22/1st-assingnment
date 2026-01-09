@@ -8,11 +8,6 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-header{
-    
-    /* border: 3px solid green;
-     */
-}
 nav{  width: 90%;
     
     margin: 0 auto;
@@ -176,3 +171,34 @@ nav ul a{
  .section-container .tiny-text{
     margin-top: 20px;
  }
+ .main-footer{
+    background-color: #001931;
+    color: #FFFFFF;
+    padding: 60px 0 30px;
+ }
+ .footer-top{
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ }
+.social-links{
+   
+  
+}
+.social-links a{
+    color: white;
+    align-items: flex-start;
+    gap: 10px;
+}
+.footer-divider{
+    border: 0; 
+    border-top: 1px solid transparent; 
+    margin-bottom: 25px;
+}
+.copyright{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
